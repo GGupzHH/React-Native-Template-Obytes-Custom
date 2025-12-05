@@ -1,9 +1,9 @@
 // routerService.ts
 
-let routerInstance = null;
+let routerInstance: any = null;
 
 // 用于在组件中初始化 router 实例
-export const setRouterInstance = (router) => {
+export const setRouterInstance = (router: any) => {
   routerInstance = router;
 };
 
