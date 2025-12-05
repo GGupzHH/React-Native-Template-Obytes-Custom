@@ -25,6 +25,13 @@ export const unstable_settings = {
 
 hydrateAuth();
 loadSelectedTheme();
+
+// mocks data start DEV
+if (__DEV__) {
+  const { server } = require('../mocks/server')
+  server.listen()
+}
+
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 // Set the animation options. This is optional.
