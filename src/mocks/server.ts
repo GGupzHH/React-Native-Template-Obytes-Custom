@@ -1,4 +1,4 @@
 import { setupServer } from 'msw/native';
-import { handlers } from './handlers';
+import { account } from './account';
 
-export const server = setupServer(...handlers);
+export const server = setupServer(...account);

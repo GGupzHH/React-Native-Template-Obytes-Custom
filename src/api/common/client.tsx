@@ -50,7 +50,7 @@ const codeMessage: {
   // 504: '网关超时。'
   504: 'Gateway Timeout.',
 };
-console.log(Env)
+console.log(Env);
 
 // 创建axios实例
 const service: AxiosInstance = axios.create({

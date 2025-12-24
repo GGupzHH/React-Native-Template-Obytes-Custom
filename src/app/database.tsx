@@ -9,8 +9,8 @@ import {
   Text,
   View,
 } from '@/components/ui';
-import { useIsFirstTime } from '@/lib/hooks';
 import { translate } from '@/lib';
+import { useIsFirstTime } from '@/lib/hooks';
 
 export default function DataBase() {
   const [_, setIsFirstTime] = useIsFirstTime();
