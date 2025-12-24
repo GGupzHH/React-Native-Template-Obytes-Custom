@@ -1,7 +1,7 @@
 {
   "onboarding": {
-    "message": "Welcome to obytes app site",
-    "fun": "The right way to build your mobile app"
+    "fun": "The right way to build your mobile app",
+    "message": "Welcome to obytes app site"
   },
   "settings": {
     "about": "About",
@@ -9,7 +9,6 @@
     "arabic": "Arabic",
     "english": "English",
     "generale": "General",
-    "zh": "Chinese",
     "github": "Github",
     "language": "Language",
     "links": "Links",
@@ -29,7 +28,8 @@
     },
     "title": "Settings",
     "version": "Version",
-    "website": "Website"
+    "website": "Website",
+    "zh": "Chinese"
   },
   "welcome": "Welcome to obytes app site"
 }

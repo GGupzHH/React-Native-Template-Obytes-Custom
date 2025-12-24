@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/filename-case */
 // routerService.ts
 
 let routerInstance: any = null;

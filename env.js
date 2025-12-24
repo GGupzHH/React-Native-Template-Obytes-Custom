@@ -85,7 +85,6 @@ const client = z.object({
   VAR_BOOL: z.boolean(),
 });
 
-
 const buildTime = z.object({
   EXPO_ACCOUNT_OWNER: z.string(),
   EAS_PROJECT_ID: z.string(),
@@ -149,7 +148,6 @@ if (parsed.success === false) {
 
 const Env = parsed.data;
 const ClientEnv = client.parse(_clientEnv);
-
 
 module.exports = {
   Env,

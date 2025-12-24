@@ -12,10 +12,9 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { KeyboardProvider } from 'react-native-keyboard-controller';
 
 import { APIProvider } from '@/api';
+import { RouterProvider } from '@/api/common/RouterContext';
 import { hydrateAuth, loadSelectedTheme } from '@/lib';
 import { useThemeConfig } from '@/lib/use-theme-config';
-
-import { RouterProvider } from '@/api/common/RouterContext'
 
 export { ErrorBoundary } from 'expo-router';
 
@@ -28,8 +27,8 @@ loadSelectedTheme();
 
 // mocks data start DEV
 if (__DEV__) {
-  const { server } = require('../mocks/server')
-  server.listen()
+  const { server } = require('../mocks/server');
+  server.listen();
 }
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
